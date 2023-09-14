@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{ccfa79a9-8375-442a-9b21-99b2ab864f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="offsets">
+      <UniqueIdentifier>{39a0cc6e-010c-4db4-9cd3-f7bd1ad65ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="e_hook">
+      <UniqueIdentifier>{b1982609-f176-4ab0-8eaf-79ea0d8fc16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scan">
+      <UniqueIdentifier>{be30c426-764f-4073-9648-7ca78f4aeff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uac_hook">
+      <UniqueIdentifier>{0632f3c4-d427-44e0-b8e3-2b8e5dca8adb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="str.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="curl.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl_hook.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="exithook.h">
+      <Filter>e_hook</Filter>
+    </ClInclude>
+    <ClInclude Include="curl_settings.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="pscan.h">
+      <Filter>scan</Filter>
+    </ClInclude>
+    <ClInclude Include="uac.h">
+      <Filter>uac_hook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="minhook.lib">
+      <Filter>hook</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+</Project>
