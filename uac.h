@@ -1,3 +1,5 @@
+// pure meme
+
 #pragma once
 
 #include <Windows.h>
